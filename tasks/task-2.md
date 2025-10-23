@@ -52,6 +52,7 @@ Base URL: `http://localhost:8080`
 
 - Non è necessario implementare il backend, gli endpoint sono già disponibili
 - Puoi utilizzare Javascript o Typescript, a seconda delle tue competenze
+- L'applicazione deve essere contenuta in una cartella denominata `client` posta nella root di questo progetto
 - Hai a disposizione VSCode come editor
 - Puoi utilizzare qualunque Browser per effettuare ricerche e consultare documentazione
 - Non utilizzare AI Agents, Ai Chat e AI Assistants per questa prova
