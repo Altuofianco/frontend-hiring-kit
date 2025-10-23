@@ -35,9 +35,7 @@ make data-refresh  # Reset customer.txt from sample.customer
 ```bash
 npm create vite@latest client -- --template react
 cd client
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-npm install
+npm install tailwindcss @tailwindcss/vite
 ```
 
 **TypeScript:**
@@ -45,27 +43,26 @@ npm install
 ```bash
 npm create vite@latest client -- --template react-ts
 cd client
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-npm install
+npm install tailwindcss @tailwindcss/vite
 ```
 
-Then configure `tailwind.config.js`:
+Then configure `vite.config.js`/`vite.config.ts`/:
 
 ```js
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: { extend: {} },
-  plugins: [],
-};
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
 ```
 
 Add to `src/index.css`:
 
 ```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 ```
 
 ### Setup: Next.js + Tailwind CSS
