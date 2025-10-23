@@ -28,7 +28,7 @@ make data-refresh  # Reset customer.txt from sample.customer
 
 ## Client
 
-### React + Vite + Tailwind CSS
+### Setup: React + Vite + Tailwind CSS
 
 **JavaScript:**
 
@@ -68,7 +68,7 @@ Add to `src/index.css`:
 @tailwind utilities;
 ```
 
-### Next.js + Tailwind CSS
+### Setup: Next.js + Tailwind CSS
 
 **JavaScript:**
 
@@ -86,7 +86,7 @@ cd client
 npm install
 ```
 
-### Start Client Development Server
+### Start Development
 
 ```bash
 cd client
