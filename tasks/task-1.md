@@ -59,6 +59,7 @@ Sviluppare un'applicazione React.js per la visualizzazione di un elenco di clien
 
 - Non è necessario implementare il backend, gli endpoint sono già disponibili
 - Puoi utilizzare Javascript o Typescript, a seconda delle tue competenze
+- Hai a disposizione VSCode come editor
 - Puoi utilizzare qualunque Browser per effettuare ricerche e consultare documentazione
 - Non utilizzare AI Agents, Ai Chat e AI Assistants per questa prova
 - In caso di dubbi o domande, non esitare a chiedere chiarimenti
