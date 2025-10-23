@@ -46,7 +46,7 @@ cd client
 npm install tailwindcss @tailwindcss/vite
 ```
 
-Then configure `vite.config.js`/`vite.config.ts`/:
+Then configure `vite.config.js`/`vite.config.ts`:
 
 ```js
 import { defineConfig } from 'vite'
