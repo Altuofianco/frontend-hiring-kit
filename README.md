@@ -81,7 +81,7 @@ npm install
 **TypeScript:**
 
 ```bash
-npx create-next-app@latest client --ts --tailwind --eslint --app --src-dir --import-alias "@/*" --no-turbopack --use-npm
+npx create-next-app@15 client --ts --tailwind --eslint --app --src-dir --import-alias "@/*" --no-turbopack --use-npm
 cd client
 npm install
 ```
