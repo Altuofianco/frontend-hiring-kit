@@ -62,7 +62,7 @@ Sviluppare un'applicazione React.js per la visualizzazione di un elenco di clien
 - L'applicazione deve essere contenuta in una cartella denominata `client` posta nella root di questo progetto
 - Hai a disposizione VSCode come editor
 - Puoi utilizzare qualunque Browser per effettuare ricerche e consultare documentazione
-- Non utilizzare AI Agents, Ai Chat e AI Assistants per questa prova
+- Non utilizzare servizi basati su AI (Agent, Chatbot, Assistant, ecc.) per questa prova
 - In caso di dubbi o domande, non esitare a chiedere chiarimenti
 
 ---
