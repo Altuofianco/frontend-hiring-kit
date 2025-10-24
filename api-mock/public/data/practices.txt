@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "id_customer": 23,
+        "product": "Web Hosting Service",
+        "price": 89.99,
+        "date_insert": "2025-10-01 09:15:00"
+    },
+    {
+        "id": 2,
+        "id_customer": 45,
+        "product": "Graphic Design Package",
+        "price": 349.50,
+        "date_insert": "2025-10-01 11:30:00"
+    },
+    {
+        "id": 3,
+        "id_customer": 12,
+        "product": "SEO Optimization Service",
+        "price": 599.00,
+        "date_insert": "2025-10-02 08:45:00"
+    },
+    {
+        "id": 4,
+        "id_customer": 58,
+        "product": "Cloud Storage Plan",
+        "price": 29.99,
+        "date_insert": "2025-10-02 14:20:00"
+    },
+    {
+        "id": 5,
+        "id_customer": 7,
+        "product": "Marketing Consultation",
+        "price": 450.00,
+        "date_insert": "2025-10-03 10:00:00"
+    },
+    {
+        "id": 6,
+        "id_customer": 31,
+        "product": "Mobile App Development",
+        "price": 899.99,
+        "date_insert": "2025-10-03 16:35:00"
+    },
+    {
+        "id": 7,
+        "id_customer": 19,
+        "product": "Email Marketing Campaign",
+        "price": 275.50,
+        "date_insert": "2025-10-04 09:50:00"
+    },
+    {
+        "id": 8,
+        "id_customer": 52,
+        "product": "Social Media Management",
+        "price": 399.00,
+        "date_insert": "2025-10-04 13:15:00"
+    },
+    {
+        "id": 9,
+        "id_customer": 3,
+        "product": "Content Writing Service",
+        "price": 125.75,
+        "date_insert": "2025-10-05 11:40:00"
+    },
+    {
+        "id": 10,
+        "id_customer": 41,
+        "product": "Video Production Package",
+        "price": 549.99,
+        "date_insert": "2025-10-05 15:25:00"
+    },
+    {
+        "id": 11,
+        "id_customer": 28,
+        "product": "IT Support Subscription",
+        "price": 199.00,
+        "date_insert": "2025-10-06 08:30:00"
+    },
+    {
+        "id": 12,
+        "id_customer": 14,
+        "product": "Business Analytics Tool",
+        "price": 679.50,
+        "date_insert": "2025-10-06 12:45:00"
+    },
+    {
+        "id": 13,
+        "id_customer": 63,
+        "product": "Logo Design Service",
+        "price": 249.99,
+        "date_insert": "2025-10-07 10:20:00"
+    },
+    {
+        "id": 14,
+        "id_customer": 36,
+        "product": "Cybersecurity Audit",
+        "price": 799.00,
+        "date_insert": "2025-10-07 14:55:00"
+    },
+    {
+        "id": 15,
+        "id_customer": 9,
+        "product": "E-commerce Platform Setup",
+        "price": 850.00,
+        "date_insert": "2025-10-08 09:10:00"
+    },
+    {
+        "id": 16,
+        "id_customer": 55,
+        "product": "Web Hosting Service",
+        "price": 79.99,
+        "date_insert": "2025-10-08 16:30:00"
+    },
+    {
+        "id": 17,
+        "id_customer": 22,
+        "product": "Marketing Consultation",
+        "price": 525.00,
+        "date_insert": "2025-10-09 11:15:00"
+    },
+    {
+        "id": 18,
+        "id_customer": 47,
+        "product": "Graphic Design Package",
+        "price": 429.99,
+        "date_insert": "2025-10-09 13:40:00"
+    },
+    {
+        "id": 19,
+        "id_customer": 5,
+        "product": "SEO Optimization Service",
+        "price": 650.00,
+        "date_insert": "2025-10-10 10:05:00"
+    },
+    {
+        "id": 20,
+        "id_customer": 60,
+        "product": "Content Writing Service",
+        "price": 175.50,
+        "date_insert": "2025-10-10 15:20:00"
+    },
+    {
+        "id": 21,
+        "id_customer": 18,
+        "product": "Cloud Storage Plan",
+        "price": 49.00,
+        "date_insert": "2025-10-11 08:50:00"
+    },
+    {
+        "id": 22,
+        "id_customer": 44,
+        "product": "Email Marketing Campaign",
+        "price": 225.75,
+        "date_insert": "2025-10-11 12:30:00"
+    },
+    {
+        "id": 23,
+        "id_customer": 11,
+        "product": "IT Support Subscription",
+        "price": 149.99,
+        "date_insert": "2025-10-12 09:25:00"
+    },
+    {
+        "id": 24,
+        "id_customer": 37,
+        "product": "Business Analytics Tool",
+        "price": 749.00,
+        "date_insert": "2025-10-12 14:10:00"
+    },
+    {
+        "id": 25,
+        "id_customer": 26,
+        "product": "Social Media Management",
+        "price": 450.00,
+        "date_insert": "2025-10-13 10:45:00"
+    },
+    {
+        "id": 26,
+        "id_customer": 53,
+        "product": "Video Production Package",
+        "price": 589.50,
+        "date_insert": "2025-10-13 16:00:00"
+    },
+    {
+        "id": 27,
+        "id_customer": 8,
+        "product": "Mobile App Development",
+        "price": 829.99,
+        "date_insert": "2025-10-14 11:20:00"
+    },
+    {
+        "id": 28,
+        "id_customer": 42,
+        "product": "Logo Design Service",
+        "price": 299.00,
+        "date_insert": "2025-10-14 13:35:00"
+    },
+    {
+        "id": 29,
+        "id_customer": 16,
+        "product": "Cybersecurity Audit",
+        "price": 775.25,
+        "date_insert": "2025-10-15 09:55:00"
+    },
+    {
+        "id": 30,
+        "id_customer": 65,
+        "product": "E-commerce Platform Setup",
+        "price": 875.00,
+        "date_insert": "2025-10-15 15:40:00"
+    },
+    {
+        "id": 31,
+        "id_customer": 29,
+        "product": "Web Hosting Service",
+        "price": 99.99,
+        "date_insert": "2025-10-16 08:15:00"
+    },
+    {
+        "id": 32,
+        "id_customer": 51,
+        "product": "Graphic Design Package",
+        "price": 325.50,
+        "date_insert": "2025-10-16 12:50:00"
+    },
+    {
+        "id": 33,
+        "id_customer": 4,
+        "product": "Marketing Consultation",
+        "price": 550.00,
+        "date_insert": "2025-10-17 10:30:00"
+    },
+    {
+        "id": 34,
+        "id_customer": 39,
+        "product": "SEO Optimization Service",
+        "price": 679.99,
+        "date_insert": "2025-10-17 14:25:00"
+    },
+    {
+        "id": 35,
+        "id_customer": 20,
+        "product": "Content Writing Service",
+        "price": 199.00,
+        "date_insert": "2025-10-18 09:40:00"
+    },
+    {
+        "id": 36,
+        "id_customer": 57,
+        "product": "Cloud Storage Plan",
+        "price": 39.50,
+        "date_insert": "2025-10-18 16:15:00"
+    },
+    {
+        "id": 37,
+        "id_customer": 13,
+        "product": "Email Marketing Campaign",
+        "price": 325.00,
+        "date_insert": "2025-10-19 11:05:00"
+    },
+    {
+        "id": 38,
+        "id_customer": 46,
+        "product": "Social Media Management",
+        "price": 419.99,
+        "date_insert": "2025-10-19 13:50:00"
+    },
+    {
+        "id": 39,
+        "id_customer": 32,
+        "product": "IT Support Subscription",
+        "price": 249.00,
+        "date_insert": "2025-10-20 10:20:00"
+    },
+    {
+        "id": 40,
+        "id_customer": 61,
+        "product": "Video Production Package",
+        "price": 675.50,
+        "date_insert": "2025-10-20 15:35:00"
+    },
+    {
+        "id": 41,
+        "id_customer": 24,
+        "product": "Business Analytics Tool",
+        "price": 625.00,
+        "date_insert": "2025-10-21 08:45:00"
+    },
+    {
+        "id": 42,
+        "id_customer": 49,
+        "product": "Mobile App Development",
+        "price": 949.99,
+        "date_insert": "2025-10-21 12:10:00"
+    },
+    {
+        "id": 43,
+        "id_customer": 6,
+        "product": "Logo Design Service",
+        "price": 199.50,
+        "date_insert": "2025-10-22 09:30:00"
+    },
+    {
+        "id": 44,
+        "id_customer": 38,
+        "product": "Cybersecurity Audit",
+        "price": 849.00,
+        "date_insert": "2025-10-22 14:45:00"
+    },
+    {
+        "id": 45,
+        "id_customer": 15,
+        "product": "E-commerce Platform Setup",
+        "price": 925.99,
+        "date_insert": "2025-10-23 10:55:00"
+    },
+    {
+        "id": 46,
+        "id_customer": 54,
+        "product": "Web Hosting Service",
+        "price": 69.50,
+        "date_insert": "2025-10-23 16:20:00"
+    },
+    {
+        "id": 47,
+        "id_customer": 27,
+        "product": "Graphic Design Package",
+        "price": 375.00,
+        "date_insert": "2025-10-24 11:35:00"
+    },
+    {
+        "id": 48,
+        "id_customer": 62,
+        "product": "Marketing Consultation",
+        "price": 475.99,
+        "date_insert": "2025-10-24 13:00:00"
+    },
+    {
+        "id": 49,
+        "id_customer": 10,
+        "product": "SEO Optimization Service",
+        "price": 525.00,
+        "date_insert": "2025-10-25 09:15:00"
+    },
+    {
+        "id": 50,
+        "id_customer": 43,
+        "product": "Content Writing Service",
+        "price": 149.50,
+        "date_insert": "2025-10-25 15:50:00"
+    },
+    {
+        "id": 51,
+        "id_customer": 21,
+        "product": "Cloud Storage Plan",
+        "price": 59.00,
+        "date_insert": "2025-10-26 10:25:00"
+    },
+    {
+        "id": 52,
+        "id_customer": 56,
+        "product": "Email Marketing Campaign",
+        "price": 295.75,
+        "date_insert": "2025-10-26 14:40:00"
+    },
+    {
+        "id": 53,
+        "id_customer": 33,
+        "product": "Social Media Management",
+        "price": 349.99,
+        "date_insert": "2025-10-27 09:50:00"
+    },
+    {
+        "id": 54,
+        "id_customer": 48,
+        "product": "IT Support Subscription",
+        "price": 179.00,
+        "date_insert": "2025-10-27 12:30:00"
+    },
+    {
+        "id": 55,
+        "id_customer": 2,
+        "product": "Video Production Package",
+        "price": 599.50,
+        "date_insert": "2025-10-28 10:45:00"
+    },
+    {
+        "id": 56,
+        "id_customer": 40,
+        "product": "Business Analytics Tool",
+        "price": 699.00,
+        "date_insert": "2025-10-28 16:05:00"
+    },
+    {
+        "id": 57,
+        "id_customer": 17,
+        "product": "Mobile App Development",
+        "price": 875.99,
+        "date_insert": "2025-10-29 11:20:00"
+    },
+    {
+        "id": 58,
+        "id_customer": 59,
+        "product": "Logo Design Service",
+        "price": 229.00,
+        "date_insert": "2025-10-29 13:55:00"
+    },
+    {
+        "id": 59,
+        "id_customer": 25,
+        "product": "Cybersecurity Audit",
+        "price": 725.50,
+        "date_insert": "2025-10-30 09:35:00"
+    },
+    {
+        "id": 60,
+        "id_customer": 64,
+        "product": "E-commerce Platform Setup",
+        "price": 799.99,
+        "date_insert": "2025-10-30 15:10:00"
+    },
+    {
+        "id": 61,
+        "id_customer": 35,
+        "product": "Web Hosting Service",
+        "price": 125.00,
+        "date_insert": "2025-10-31 10:00:00"
+    },
+    {
+        "id": 62,
+        "id_customer": 50,
+        "product": "Graphic Design Package",
+        "price": 399.50,
+        "date_insert": "2025-10-31 14:30:00"
+    },
+    {
+        "id": 63,
+        "id_customer": 1,
+        "product": "Marketing Consultation",
+        "price": 475.00,
+        "date_insert": "2025-11-01 09:20:00"
+    },
+    {
+        "id": 64,
+        "id_customer": 34,
+        "product": "SEO Optimization Service",
+        "price": 575.99,
+        "date_insert": "2025-11-01 12:45:00"
+    },
+    {
+        "id": 65,
+        "id_customer": 45,
+        "product": "Content Writing Service",
+        "price": 185.00,
+        "date_insert": "2025-11-02 10:50:00"
+    },
+    {
+        "id": 66,
+        "id_customer": 30,
+        "product": "Cloud Storage Plan",
+        "price": 89.50,
+        "date_insert": "2025-11-02 16:15:00"
+    },
+    {
+        "id": 67,
+        "id_customer": 58,
+        "product": "Email Marketing Campaign",
+        "price": 325.00,
+        "date_insert": "2025-11-03 11:30:00"
+    },
+    {
+        "id": 68,
+        "id_customer": 12,
+        "product": "Social Media Management",
+        "price": 379.99,
+        "date_insert": "2025-11-03 13:00:00"
+    },
+    {
+        "id": 69,
+        "id_customer": 52,
+        "product": "IT Support Subscription",
+        "price": 219.50,
+        "date_insert": "2025-11-04 09:40:00"
+    },
+    {
+        "id": 70,
+        "id_customer": 7,
+        "product": "Video Production Package",
+        "price": 625.00,
+        "date_insert": "2025-11-04 15:25:00"
+    },
+    {
+        "id": 71,
+        "id_customer": 41,
+        "product": "Business Analytics Tool",
+        "price": 749.99,
+        "date_insert": "2025-11-05 10:15:00"
+    },
+    {
+        "id": 72,
+        "id_customer": 19,
+        "product": "Mobile App Development",
+        "price": 899.50,
+        "date_insert": "2025-11-05 14:50:00"
+    },
+    {
+        "id": 73,
+        "id_customer": 63,
+        "product": "Logo Design Service",
+        "price": 275.00,
+        "date_insert": "2025-11-06 11:05:00"
+    },
+    {
+        "id": 74,
+        "id_customer": 28,
+        "product": "Cybersecurity Audit",
+        "price": 825.99,
+        "date_insert": "2025-11-06 16:35:00"
+    },
+    {
+        "id": 75,
+        "id_customer": 47,
+        "product": "E-commerce Platform Setup",
+        "price": 829.00,
+        "date_insert": "2025-11-07 09:25:00"
+    },
+    {
+        "id": 76,
+        "id_customer": 3,
+        "product": "Web Hosting Service",
+        "price": 99.50,
+        "date_insert": "2025-11-07 12:10:00"
+    },
+    {
+        "id": 77,
+        "id_customer": 55,
+        "product": "Graphic Design Package",
+        "price": 375.00,
+        "date_insert": "2025-11-08 10:40:00"
+    },
+    {
+        "id": 78,
+        "id_customer": 14,
+        "product": "Marketing Consultation",
+        "price": 549.99,
+        "date_insert": "2025-11-08 15:20:00"
+    },
+    {
+        "id": 79,
+        "id_customer": 36,
+        "product": "SEO Optimization Service",
+        "price": 699.00,
+        "date_insert": "2025-11-09 11:50:00"
+    },
+    {
+        "id": 80,
+        "id_customer": 60,
+        "product": "Content Writing Service",
+        "price": 125.50,
+        "date_insert": "2025-11-09 13:30:00"
+    },
+    {
+        "id": 81,
+        "id_customer": 9,
+        "product": "Cloud Storage Plan",
+        "price": 75.00,
+        "date_insert": "2025-11-10 09:15:00"
+    },
+    {
+        "id": 82,
+        "id_customer": 44,
+        "product": "Email Marketing Campaign",
+        "price": 249.99,
+        "date_insert": "2025-11-10 14:45:00"
+    },
+    {
+        "id": 83,
+        "id_customer": 22,
+        "product": "Social Media Management",
+        "price": 425.00,
+        "date_insert": "2025-11-11 10:30:00"
+    },
+    {
+        "id": 84,
+        "id_customer": 53,
+        "product": "IT Support Subscription",
+        "price": 225.50,
+        "date_insert": "2025-11-11 16:00:00"
+    },
+    {
+        "id": 85,
+        "id_customer": 5,
+        "product": "Video Production Package",
+        "price": 575.00,
+        "date_insert": "2025-11-12 11:20:00"
+    },
+    {
+        "id": 86,
+        "id_customer": 39,
+        "product": "Business Analytics Tool",
+        "price": 699.99,
+        "date_insert": "2025-11-12 13:40:00"
+    },
+    {
+        "id": 87,
+        "id_customer": 18,
+        "product": "Mobile App Development",
+        "price": 975.00,
+        "date_insert": "2025-11-13 09:50:00"
+    },
+    {
+        "id": 88,
+        "id_customer": 65,
+        "product": "Logo Design Service",
+        "price": 325.50,
+        "date_insert": "2025-11-13 15:15:00"
+    },
+    {
+        "id": 89,
+        "id_customer": 26,
+        "product": "Cybersecurity Audit",
+        "price": 749.00,
+        "date_insert": "2025-11-14 10:35:00"
+    },
+    {
+        "id": 90,
+        "id_customer": 51,
+        "product": "E-commerce Platform Setup",
+        "price": 899.99,
+        "date_insert": "2025-11-14 14:20:00"
+    },
+    {
+        "id": 91,
+        "id_customer": 8,
+        "product": "Web Hosting Service",
+        "price": 79.00,
+        "date_insert": "2025-11-15 11:45:00"
+    },
+    {
+        "id": 92,
+        "id_customer": 42,
+        "product": "Graphic Design Package",
+        "price": 275.50,
+        "date_insert": "2025-11-15 16:30:00"
+    },
+    {
+        "id": 93,
+        "id_customer": 16,
+        "product": "Marketing Consultation",
+        "price": 525.00,
+        "date_insert": "2025-11-16 10:05:00"
+    },
+    {
+        "id": 94,
+        "id_customer": 57,
+        "product": "SEO Optimization Service",
+        "price": 499.99,
+        "date_insert": "2025-11-16 12:50:00"
+    },
+    {
+        "id": 95,
+        "id_customer": 31,
+        "product": "Content Writing Service",
+        "price": 149.00,
+        "date_insert": "2025-11-17 09:30:00"
+    },
+    {
+        "id": 96,
+        "id_customer": 61,
+        "product": "Cloud Storage Plan",
+        "price": 45.50,
+        "date_insert": "2025-11-17 15:10:00"
+    },
+    {
+        "id": 97,
+        "id_customer": 11,
+        "product": "Email Marketing Campaign",
+        "price": 275.00,
+        "date_insert": "2025-11-18 11:25:00"
+    },
+    {
+        "id": 98,
+        "id_customer": 46,
+        "product": "Social Media Management",
+        "price": 449.99,
+        "date_insert": "2025-11-18 14:00:00"
+    },
+    {
+        "id": 99,
+        "id_customer": 23,
+        "product": "IT Support Subscription",
+        "price": 225.00,
+        "date_insert": "2025-11-19 10:20:00"
+    },
+    {
+        "id": 100,
+        "id_customer": 37,
+        "product": "Video Production Package",
+        "price": 675.50,
+        "date_insert": "2025-11-19 16:45:00"
+    }
+]
