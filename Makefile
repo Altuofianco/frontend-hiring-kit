@@ -3,8 +3,6 @@
 # Paths
 API_MOCK_DIR = api-mock
 DATA_DIR = $(API_MOCK_DIR)/public/data
-SAMPLE_FILE = $(DATA_DIR)/sample.customer
-CUSTOMER_FILE = $(DATA_DIR)/customers.txt
 
 # Colors
 GREEN = \033[0;32m
@@ -28,26 +26,47 @@ start: ## Start CodeIgniter development server
 stop: ## Stop CodeIgniter development server (Ctrl+C)
 	@echo "$(YELLOW)To stop the server, press Ctrl+C$(NC)"
 
-data-init: ## Copy sample.customer to customers.txt
-	@if [ ! -f $(SAMPLE_FILE) ]; then \
-		echo "$(RED)Error: $(SAMPLE_FILE) not found!$(NC)"; \
+data-init: ## Copy all sample.* files to {DATABASE_NAME}.txt
+	@SAMPLE_FILES=$$(find $(DATA_DIR) -maxdepth 1 -name "sample.*" -type f); \
+	if [ -z "$$SAMPLE_FILES" ]; then \
+		echo "$(RED)Error: No sample.* files found in $(DATA_DIR)!$(NC)"; \
 		exit 1; \
-	fi
-	@if [ -f $(CUSTOMER_FILE) ]; then \
-		echo "$(YELLOW)Warning: $(CUSTOMER_FILE) already exists. Use 'make data-refresh' to overwrite.$(NC)"; \
+	fi; \
+	HAS_EXISTING=0; \
+	for SAMPLE in $$SAMPLE_FILES; do \
+		DB_NAME=$$(basename $$SAMPLE | sed 's/^sample\.//'); \
+		TARGET=$(DATA_DIR)/$$DB_NAME.txt; \
+		if [ -f $$TARGET ]; then \
+			echo "$(YELLOW)Warning: $$DB_NAME.txt already exists$(NC)"; \
+			HAS_EXISTING=1; \
+		fi; \
+	done; \
+	if [ $$HAS_EXISTING -eq 1 ]; then \
+		echo "$(YELLOW)Some target files already exist. Use 'make data-refresh' to overwrite.$(NC)"; \
 		exit 1; \
-	fi
-	@cp $(SAMPLE_FILE) $(CUSTOMER_FILE)
-	@echo "$(GREEN)File customers.txt created successfully from sample.customer$(NC)"
+	fi; \
+	for SAMPLE in $$SAMPLE_FILES; do \
+		DB_NAME=$$(basename $$SAMPLE | sed 's/^sample\.//'); \
+		TARGET=$(DATA_DIR)/$$DB_NAME.txt; \
+		cp $$SAMPLE $$TARGET; \
+		echo "$(GREEN)Created $$DB_NAME.txt from sample.$$DB_NAME$(NC)"; \
+	done; \
+	echo "$(GREEN)All data files initialized successfully!$(NC)"
 
-data-refresh: ## Delete and recreate customers.txt from sample.customer
-	@if [ ! -f $(SAMPLE_FILE) ]; then \
-		echo "$(RED)Error: $(SAMPLE_FILE) not found!$(NC)"; \
+data-refresh: ## Delete and recreate all {DATABASE_NAME}.txt from sample.* files
+	@SAMPLE_FILES=$$(find $(DATA_DIR) -maxdepth 1 -name "sample.*" -type f); \
+	if [ -z "$$SAMPLE_FILES" ]; then \
+		echo "$(RED)Error: No sample.* files found in $(DATA_DIR)!$(NC)"; \
 		exit 1; \
-	fi
-	@if [ -f $(CUSTOMER_FILE) ]; then \
-		rm $(CUSTOMER_FILE); \
-		echo "$(YELLOW)File customers.txt deleted$(NC)"; \
-	fi
-	@cp $(SAMPLE_FILE) $(CUSTOMER_FILE)
-	@echo "$(GREEN)File customers.txt recreated successfully from sample.customer$(NC)"
+	fi; \
+	for SAMPLE in $$SAMPLE_FILES; do \
+		DB_NAME=$$(basename $$SAMPLE | sed 's/^sample\.//'); \
+		TARGET=$(DATA_DIR)/$$DB_NAME.txt; \
+		if [ -f $$TARGET ]; then \
+			rm $$TARGET; \
+			echo "$(YELLOW)Deleted $$DB_NAME.txt$(NC)"; \
+		fi; \
+		cp $$SAMPLE $$TARGET; \
+		echo "$(GREEN)Recreated $$DB_NAME.txt from sample.$$DB_NAME$(NC)"; \
+	done; \
+	echo "$(GREEN)All data files refreshed successfully!$(NC)"
