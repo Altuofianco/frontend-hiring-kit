@@ -57,13 +57,12 @@ Sviluppare un'applicazione React.js per la visualizzazione di un elenco di clien
 
 ## Note
 
-- Non è necessario implementare il backend, gli endpoint sono già disponibili
-- Puoi utilizzare Javascript o Typescript, a seconda delle tue competenze
-- L'applicazione deve essere contenuta in una cartella denominata `client` posta nella root di questo progetto
-- Hai a disposizione VSCode come editor
-- Puoi utilizzare qualunque Browser per effettuare ricerche e consultare documentazione
-- Non utilizzare servizi basati su AI (Agent, Chatbot, Assistant, ecc.) per questa prova
-- In caso di dubbi o domande, non esitare a chiedere chiarimenti
+- Non è necessario implementare il backend, gli endpoint indicati sono già disponibili.
+- Puoi utilizzare **Javascript o Typescript**, a seconda delle tue preferenze.
+- L’applicazione deve essere contenuta in una cartella denominata `dashboard` posta nella root del progetto.
+- Hai a disposizione VSCode come editor e un Browser per effettuare test e ricerche.
+- Non utilizzare servizi basati su AI (Agent, Chatbot, Assistant, ecc.) per questa prova.
+- In caso di dubbi o domande, non esitare a chiedere chiarimenti.
 
 ---
 
