@@ -4,7 +4,7 @@
 API_MOCK_DIR = api-mock
 DATA_DIR = $(API_MOCK_DIR)/public/data
 SAMPLE_FILE = $(DATA_DIR)/sample.customer
-CUSTOMER_FILE = $(DATA_DIR)/customer.txt
+CUSTOMER_FILE = $(DATA_DIR)/customers.txt
 
 # Colors
 GREEN = \033[0;32m
@@ -28,7 +28,7 @@ start: ## Start CodeIgniter development server
 stop: ## Stop CodeIgniter development server (Ctrl+C)
 	@echo "$(YELLOW)To stop the server, press Ctrl+C$(NC)"
 
-data-init: ## Copy sample.customer to customer.txt
+data-init: ## Copy sample.customer to customers.txt
 	@if [ ! -f $(SAMPLE_FILE) ]; then \
 		echo "$(RED)Error: $(SAMPLE_FILE) not found!$(NC)"; \
 		exit 1; \
@@ -38,16 +38,16 @@ data-init: ## Copy sample.customer to customer.txt
 		exit 1; \
 	fi
 	@cp $(SAMPLE_FILE) $(CUSTOMER_FILE)
-	@echo "$(GREEN)File customer.txt created successfully from sample.customer$(NC)"
+	@echo "$(GREEN)File customers.txt created successfully from sample.customer$(NC)"
 
-data-refresh: ## Delete and recreate customer.txt from sample.customer
+data-refresh: ## Delete and recreate customers.txt from sample.customer
 	@if [ ! -f $(SAMPLE_FILE) ]; then \
 		echo "$(RED)Error: $(SAMPLE_FILE) not found!$(NC)"; \
 		exit 1; \
 	fi
 	@if [ -f $(CUSTOMER_FILE) ]; then \
 		rm $(CUSTOMER_FILE); \
-		echo "$(YELLOW)File customer.txt deleted$(NC)"; \
+		echo "$(YELLOW)File customers.txt deleted$(NC)"; \
 	fi
 	@cp $(SAMPLE_FILE) $(CUSTOMER_FILE)
-	@echo "$(GREEN)File customer.txt recreated successfully from sample.customer$(NC)"
+	@echo "$(GREEN)File customers.txt recreated successfully from sample.customer$(NC)"
